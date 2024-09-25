@@ -1,6 +1,8 @@
 # hockey_AR_Backend
 backend server code for the Hockey AR game for authenticating register new user and login and submit score 
 
+to run the application use:  node server.js
+
 #API command
 
 Register a new user:
@@ -26,3 +28,4 @@ Requires JWT token in the header: { "x-auth-token": "your-jwt-token" }
 Get leaderboard:
 
 GET /api/scores/leaderboard
+
